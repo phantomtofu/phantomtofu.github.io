@@ -1,7 +1,7 @@
 ---
-id: 1
-title: "Lorem ipsum 1"
-subtitle: "Sed sit amet arcu a diam tincidunt porta"
+id: 0
+title: "Blog post 0"
+subtitle: "gonna keep this one here as a formatting example"
 date: "2019.12.08"
 tags: "tag1, tag2"
 ---
