@@ -1,0 +1,86 @@
+<!doctypehtml>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>How did this happen?</title>
+
+  <meta name="viewport"content="width=device-width,initial-scale=1">
+  <meta http-equiv="X-UA-Compatible"content="ie=edge">
+
+  <link rel="shortcut icon"href="../assets/favicon.ico"type="image/x-icon">
+  <link rel="preload"href="../styles/article.css"as="style">
+  <link rel="stylesheet"href="../styles/article.css">
+</head>
+<body>
+  <header id="top-container"role="navigation">
+    <nav>
+  <a class="logo-link"href="/">
+    <h1>Home page</h1>
+    <span></span>
+  </a>
+  <small>
+    <a id="about"class="info-link"href="/about.html">👀About</a> /
+    <a id="links"class="info-link"href="/works.html">🔥links</a> /
+    <a id="blog"class="info-link"href="/articles.html">📚Articles</a>
+  </small>
+</nav>
+
+  </header>
+  <main id="main-container">
+    <article id="article-container">
+      <h1 id="article-title">
+        How did this happen?
+      </h1>
+      
+        <h2 id="article-subtitle">
+          Publishing a simple website
+        </h2>
+      
+      <time id="article-date">
+        2023.09.26
+      </time>
+      <section id="article-content-container">
+        <details><summary>Table of Contents</summary>
+<p><div class="table-of-contents"><ul></ul></div><p></p>
+</details>
+<p>So, I had heard that one could host a static webpage with GitHub. I’ve built static webpages before! In school… They used iframes based on tutorials from w3schools.</p>
+<p>I kinda started to do this about a year ago and forgot. All I had done was a readme with the text “trying to make a webpage.” Well, I have a new tool now - modern medicine! (ADHD diagnosis and Adderall).</p>
+<p>The Pages setting in the repository has a handy link to add a Jekyll theme <a href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll">https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll</a>. Just fork a repository, install Ruby, pick a theme, wait install Ruby? I got pretty mixed up in the instructions - turns out I probably didn’t need to test it locally anyway (on Windows, which complicates things). Oh well, I gave up to try to find something simpler.</p>
+<p>After searching some themes and templates, I found a similar path that worked out. The handmade-blog from parksb has pretty simple instructions and is published as a template. Without rehasing the readme too much, here’s how it worked for me:</p>
+<ol>
+<li>Use the template (all branches), named as [github user].github.io</li>
+<li>Clone to editor of choice (VS Code)</li>
+<li>Discover that running and building requires NPM (Javascript stuff I’ve never done), which requires Linux(?)</li>
+<li>Install WSL, and the VS Code extension</li>
+<li>Install NPM in WSL</li>
+<li>Connect VS Code to WSL using extension, and clone again (also delete the repository from Windows)</li>
+<li>Edit -&gt; npm build -&gt; npm start -&gt; runs on a local web server for review -&gt; repeat</li>
+<li>Publish by committing and pushing(? still unclear on git terminology). I haven’t actually tested this step at time of writing.</li>
+</ol>
+<p>After I publish this article, it’s time to work on the rest of the site.</p>
+<p><img src="/images/hdth.png"alt="https://www.youtube.com/@billwurtz"loading="lazy"decoding="async"width="1221"height="651"></p>
+
+      </section>
+      <section id="article-navigation">
+        
+        
+          <div class="article-navigation-item article-navigation-prev">
+            <a href="/article/0.html">
+              <div class="article-navigation-arrow article-navigation-prev">＞</div>
+              <div class="article-navigation-content article-navigation-prev">
+                <p class="article-navigation-title">Blog post 0</p>
+                <p class="article-navigation-subtitle">gonna keep this one here as a formatting example</p>
+              </div>
+            </a>
+          </div>
+        
+      </section>
+      <section id="article-list-button-container">
+        <a href="/articles.html">
+          <div id="article-list-button">📚</div>
+        </a>
+      </section>
+    </article>
+  </main>
+
+
